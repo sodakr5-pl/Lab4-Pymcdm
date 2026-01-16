@@ -1,0 +1,19 @@
+ -Raport z analizy TOPSIS/SPOTIS
+
+Opcje : "Opcja_1","Opcja_2","Opcja_3","Opcja_4"
+Kryteria: koszt, zysk, ryzyko 
+Typy kryteriów: [-1, 1, -1]
+Wagi kryteriów: [0.1, 0.6, 0.3] 
+Granice dla SPOTIS: 
+  - koszt:  30 000 – 100 000  
+  - zysk:   8 000  – 12 500  
+  - ryzyko: 2      – 20
+
+ -Wyniki :
+     Opcja    TOPSIS    SPOTIS
+0  Opcja_1  0.345141  0.600000
+1  Opcja_2  0.280300  0.654762
+2  Opcja_3  0.141938  0.785714
+3  Opcja_4  0.654859  0.316667
+
+Najlepsza opcja w tym przypadku : Opcja_4 - (zgodnie z TOPSIS posiada najwyższą ocenę, a zgodnie z SPOTIS najniższą)
